@@ -1,0 +1,53 @@
+
+.container{
+  height:200px;
+}
+
+.img-container {
+	width: 100%;
+	height: 400px;
+}
+
+.picture-style {
+	float: left;
+	width: calc(100%/3);
+	height: 100%;
+	object-fit: cover
+}
+
+.intro{
+	display:block;
+	background-color: black;
+  height: 50 px;
+
+}
+.middlerow{
+	display:block;
+	background-color: white;
+	border-color: black; 
+	margin: 100 px;
+
+}
+.middlecolumn{
+	display:grid;
+    height:100%;
+    background-color: white;
+  }
+
+.h1{
+  display:contents;
+    font-family: "Didot";
+   text-align:right
+  
+}
+
+.p{
+	display:contents;
+	font-family:"Didot";
+	font-weight: italic;
+	text-align:right;
+}
+
+.containerwords{
+ columns:3;
+}
